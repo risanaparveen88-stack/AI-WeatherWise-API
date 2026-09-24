@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const generateText = async (prompt, purpose = null) => {
-  const apiKey = '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';
+  const apiKey = 'your_groq_api_key';
 
   let finalPrompt = prompt;
   if (purpose && purpose.trim() !== '') {
